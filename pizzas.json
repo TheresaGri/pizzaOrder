@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Marinara",
+    "ingredients": ["San Marzano tomato sauce", "garlic", "oregano", "olive oil" ],
+    "price": 10,
+    "allergens": [1, 3, 9]
+  },
+  {
+    "id": 2,
+    "name": "Margaerita",
+    "ingredients": ["Tomato sauce", "mozarella" ],
+    "price": 7,
+    "allergens": [1, 2, 3]
+  },
+  {
+    "id": 3,
+    "name": "Diavola",
+    "ingredients": ["Salami", "chilli", "oregano", "mozarella"],
+    "price": 15,
+    "allergens": [1, 2, 7]
+  },
+  {
+    "id": 4,
+    "name": "Primavera",
+    "ingredients": ["Tomato sauce", "mozarella", "eggplant", "zucchini", "artichokes", "tomatoes", "mushrooms"],
+    "price": 15,
+    "allergens": [1, 2, 3]
+  },
+  {
+    "id": 5,
+    "name": "Napoletana",
+    "ingredients": ["Tomatosauce", "cheese", "anchovies", "olives", "capers"],
+    "price": 13,
+    "allergens": [1, 2, 3]
+  },{
+    "id": 6,
+    "name": "Toscana",
+    "ingredients": ["Tomato sauce", "cheese", "ham", "mushrooms"],
+    "price": 11,
+    "allergens": [1, 2, 3]
+  },{
+    "id": 7,
+    "name": "Provinciale",
+    "ingredients": ["Tomatosauce", "cheese", "ham", "bacon", "corn", "jalapeno"],
+    "price": 14,
+    "allergens": [1, 2, 3]
+  }
+]

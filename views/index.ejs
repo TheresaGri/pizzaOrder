@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/public/css/style.css" rel="stylesheet" type="text/css">
+  <script src="/public/css/index.js" defer=""></script>
+  <title>PizzaGirls</title>
+</head>
+<body>
+  <h1 id="title">PizzaGirls</h1>
+  <div id="navbar" class="navbar">
+    <div class="navbar" id="menuButton">Menu</div>
+    <div class="navbar" id="allergensButton">Allergens</div>
+    <div class="navbar" id="myOrderButton">My Order</div>
+  </div>
+  <div id = "formDiv">
+    <form id = "form">
+      <label for="fname">Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="emailAdress">email:</label><br>
+      <input type="text" id="emailAdress" name="emailAdress"><br>
+      <label for="city">city:</label><br>
+      <input type="text" id="city" name="city"><br>
+      <label for="street">street:</label><br>
+      <input type="text" id="street" name="street"><br>
+      <button type = "submit" id = "submitButton">Submit</button>
+    </form>`
+  </div>
+  <div id="display">
+    <%- text %>
+    </div>
+</body>
+</html>
